@@ -1,0 +1,68 @@
+Sistema de ideas Bonindea:
+
+De El Investigador de las Ideas.
+(https://investigadorid.wordpress.com/).
+Versión 1.0.
+
+Por cuestiones de gusto y comodidad se sigue escribiendo en
+un nuevo renglón cada vez que se llega a la columna 60.
+
+Finalidad:
+
+Crear un formato para esquematizar en forma de texto a 
+ideas posibilitando la modularidad y la modificación.
+
+Metodología:
+
+Ejemplo:
+f{descripción[][]...{{}{}{}}{}{{}{}}{{}}{{{}}{}}...}
+
+Donde:
+Las llaves encierran un bloque de datos, texto o 
+información en general: {bloque}.
+Los corchetes encierran una definición: [definición].
+"f" es el bloque de orden 0 o el bloque fundamental.
+
+En descripción puede estar la fecha y los votos.
+También se puede señalar una característica como 
+transmisible a los bloques de orden mayor que estén dentro 
+suyo.
+Es buena práctica agregar como característica transmisible 
+al número identificador X1.X2.X3... siendo esos números Xi 
+separados por puntos números enteros igual o mayores que 0,
+siendo 0 el bloque fundamental. Se puede completar más y 
+decir nombre_del_sistema_bonindea..X1.X2.X3....
+Un bloque que es más reciente que otro se posiciona arriba 
+de ese otro, para un mismo nivel en común y tiene una X de subnivel mayor.
+Se es libre de decidir si se deja uno o varios renglones 
+entre los bloques.
+
+Copyright:
+
+El texto de "Sistema de ideas Bonindea" de El Investigador 
+de las Ideas es una obra original del autor.
+
+Licencia de dicho texto: GPLv3 
+(https://www.gnu.org/licenses/gpl-3.0.en.html).
+© El Investigador de las Ideas 
+(https://investigadorid.wordpress.com/).
+Año 2020.
+
+    Linking this library statically or dynamically with 
+other modules is making a combined work based on this
+library. Thus, the terms and conditions of the GNU General
+Public License cover the whole combination.
+
+    As a special exception, the copyright holders of this
+library give you permission to link this library with
+independent modules to produce an executable, regardless of
+the license terms of these independent modules, and to copy
+and distribute the resulting executable under terms of your
+choice, provided that you also meet, for each linked
+independent module, the terms and conditions of the license
+of that module. An independent module is a module which is
+not derived from or based on this library. If you modify
+this library, you may extend this exception to your version
+of the library, but you are not obligated to do so. If you
+do not wish to do so, delete this exception statement from
+your version.
