@@ -36,6 +36,8 @@ Un bloque que es más reciente que otro se posiciona arriba
 de ese otro, para un mismo nivel en común y tiene una X de subnivel mayor.
 Se es libre de decidir si se deja uno o varios renglones 
 entre los bloques.
+Se puede reinterpretar una llave como texto simple 
+poniéndola dentro de una cadena en entre comillas: "{}".
 
 Copyright:
 
