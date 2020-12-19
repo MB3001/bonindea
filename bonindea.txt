@@ -2,7 +2,7 @@ Sistema de ideas Bonindea:
 
 De El Investigador de las Ideas.
 (https://investigadorid.wordpress.com/).
-Versión 1.0.
+Versión 1.1.
 
 Por cuestiones de gusto y comodidad se sigue escribiendo en
 un nuevo renglón cada vez que se llega a la columna 60.
@@ -23,10 +23,14 @@ información en general: {bloque}.
 Los corchetes encierran una definición: [definición].
 "f" es el bloque de orden 0 o el bloque fundamental.
 
-En descripción puede estar la fecha y los votos.
+En descripción puede estar datos como si el bloque fue 
+elegido o no entre otros para una lista de opciones de 
+bloques, la fecha y los votos.
 También se puede señalar una característica como 
 transmisible a los bloques de orden mayor que estén dentro 
 suyo.
+En las definiciones se coloca algún estándar o clase de 
+datos que ha de seguirse o instanciarse.
 Es buena práctica agregar como característica transmisible 
 al número identificador X1.X2.X3... siendo esos números Xi 
 separados por puntos números enteros igual o mayores que 0,
@@ -38,6 +42,11 @@ Se es libre de decidir si se deja uno o varios renglones
 entre los bloques.
 Se puede reinterpretar una llave como texto simple 
 poniéndola dentro de una cadena en entre comillas: "{}".
+Se aplica lo mismo para los corchetes además de las llaves:
+"[]".
+Se puede comentar en o incluso proponer una versión 
+modificada de un bloque por medio de un subbloque dentro 
+de éste.
 
 Copyright:
 
