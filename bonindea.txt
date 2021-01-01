@@ -2,7 +2,7 @@ Sistema de ideas Bonindea:
 
 De El Investigador de las Ideas.
 (https://investigadorid.wordpress.com/).
-Versión 1.2.
+Versión 1.3.
 
 Por cuestiones de gusto y comodidad se sigue escribiendo en
 un nuevo renglón cada vez que se llega a la columna 60.
@@ -26,18 +26,23 @@ Los corchetes encierran una definición: [definición].
 En descripción puede estar datos como si el bloque fue 
 elegido o no entre otros para una lista de opciones de 
 bloques, la fecha y los votos.
+En las definiciones se coloca algún estándar o clase de 
+datos que ha de seguirse o instanciarse.
 También se puede señalar una característica como 
 transmisible a los bloques de orden mayor que estén dentro 
 suyo.
-En las definiciones se coloca algún estándar o clase de 
-datos que ha de seguirse o instanciarse.
 Es buena práctica agregar como característica transmisible 
 al número identificador de bloque (o id) X1.X2.X3... siendo
 esos números Xi separados por puntos números enteros igual 
-o mayores que 0, siendo 0 el bloque fundamental. Se puede completar más y 
-decir nombre_del_sistema_bonindea..X1.X2.X3....
+o mayores que 0, siendo 0 o "f" el bloque fundamental.
+El si se puede modificar un bloque parcial o totalmente o 
+no es una decisión libre, aunque se recomienda avisar cómo 
+se hace esto en una definición, o si sólo se puede en un 
+subbloque titulado "Historial" dentro de su descripción y 
+con subbloques de éste como las distintas versiones.
 Un bloque que es más reciente que otro se posiciona arriba 
-de ese otro, para un mismo nivel en común y tiene una X de subnivel mayor.
+de ese otro, para un mismo nivel en común y tiene una X de 
+subnivel mayor.
 Se es libre de decidir si se deja uno o varios renglones 
 entre los bloques.
 Se puede reinterpretar una llave como texto simple 
@@ -47,19 +52,20 @@ Se aplica lo mismo para los corchetes además de las llaves:
 Se puede comentar en o incluso proponer una versión 
 modificada de un bloque por medio de un subbloque dentro 
 de éste.
-Los archivos bonindea pueden ser del tipo .txt o .bonindea.
+Los archivos bonindea pueden son del tipo ".bonindea" y 
+cada archivo tiene un sistema bonindea dentro.
 Estos archivos se pueden agrupar en proyectos bonindea.
-Cada sistema bonindea de un proyecto puede tener un nombre 
-identificador (syid), y para retornar un bloque 
-(identificado por su id de bloque) de un sistema se llama 
-"(nombre identificador)..(id's de bloques separados por 
-comas y ordenados de menor a mayor)". Ejemplo: 
-ncinid...0.5.1,2.3,2.5,4,8.
+Para mencionar bloques (identificados por su id de bloque) 
+de un sistema o proyecto específico se menciona su id 
+completo "((nombre del archivo).bonindea o (nombre del 
+proyecto), o ambos separados por "; ")..(id's de bloques 
+separados por comas y ordenados de menor a mayor)". 
+Ejemplo: ncinid..0.5.1,2.3,2.5,4,8 (para el proyecto 
+bonindea "ncinid").
 Dentro de una definición puede haber otro sistema bonindea.
-Se puede importar desde un bloque a otro sistema bonindea o
-bloque de éste a partir de su syid, así como se puede desde
-un bloque mencionar a otro bloque de un mismo sistema a 
-partir de su id.
+Se puede importar desde un bloque a otro bloque, sistema
+o proyecto bonindea a partir de su id, sin necesidad de ser
+completo si se está en un mismo sistema o proyecto.
 
 Copyright:
 
