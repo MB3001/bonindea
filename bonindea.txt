@@ -2,14 +2,14 @@ Sistema de ideas Bonindea:
 
 De El Investigador de las Ideas.
 (https://investigadorid.wordpress.com/).
-Versión 1.3.
+Versión 1.4.
 
 Por cuestiones de gusto y comodidad se sigue escribiendo en
 un nuevo renglón cada vez que se llega a la columna 60.
 
 Finalidad:
 
-Crear un formato para esquematizar en forma de texto a 
+Crear un formato para esquematizar en forma de texto a
 ideas posibilitando la modularidad y la modificación.
 
 Metodología:
@@ -18,49 +18,50 @@ Ejemplo:
 f{descripción[][]...{{}{}{}}{}{{}{}}{{}}{{{}}{}}...}
 
 Donde:
-Las llaves encierran un bloque de datos, texto o 
+Las llaves encierran un bloque de datos, texto o
 información en general: {bloque}.
 Los corchetes encierran una definición: [definición].
 "f" es el bloque de orden 0 o el bloque fundamental.
 
-En descripción puede estar datos como si el bloque fue 
-elegido o no entre otros para una lista de opciones de 
+En descripción puede estar datos como si el bloque fue
+elegido o no entre otros para una lista de opciones de
 bloques, la fecha y los votos.
-En las definiciones se coloca algún estándar o clase de 
+En las definiciones se coloca algún estándar o clase de
 datos que ha de seguirse o instanciarse.
-También se puede señalar una característica como 
-transmisible a los bloques de orden mayor que estén dentro 
+También se puede señalar una característica como
+transmisible a los bloques de orden mayor que estén dentro
 suyo.
-Es buena práctica agregar como característica transmisible 
+Es buena práctica agregar como característica transmisible
 al número identificador de bloque (o id) X1.X2.X3... siendo
-esos números Xi separados por puntos números enteros igual 
+esos números Xi separados por puntos números enteros igual
 o mayores que 0, siendo 0 o "f" el bloque fundamental.
-El si se puede modificar un bloque parcial o totalmente o 
-no es una decisión libre, aunque se recomienda avisar cómo 
-se hace esto en una definición, o si sólo se puede en un 
-subbloque titulado "Historial" dentro de su descripción y 
+El si se puede modificar un bloque parcial o totalmente o
+no es una decisión libre, aunque se recomienda avisar cómo
+se hace esto en una definición, o si sólo se puede en un
+subbloque titulado "Historial" dentro de su descripción y
 con subbloques de éste como las distintas versiones.
-Un bloque que es más reciente que otro se posiciona arriba 
-de ese otro, para un mismo nivel en común y tiene una X de 
+Un bloque que es más reciente que otro se posiciona arriba
+de ese otro, para un mismo nivel en común y tiene una X de
 subnivel mayor.
-Se es libre de decidir si se deja uno o varios renglones 
+Se es libre de decidir si se deja uno o varios renglones
 entre los bloques.
-Se puede reinterpretar una llave como texto simple 
+Se puede reinterpretar una llave como texto simple
 poniéndola dentro de una cadena en entre comillas: "{}".
 Se aplica lo mismo para los corchetes además de las llaves:
 "[]".
-Se puede comentar en o incluso proponer una versión 
-modificada de un bloque por medio de un subbloque dentro 
+Se puede comentar en o incluso proponer una versión
+modificada de un bloque por medio de un subbloque dentro
 de éste.
-Los archivos bonindea pueden son del tipo ".bonindea" y 
+Los archivos bonindea pueden son del tipo ".bonindea" y
 cada archivo tiene un sistema bonindea dentro.
 Estos archivos se pueden agrupar en proyectos bonindea.
-Para mencionar bloques (identificados por su id de bloque) 
-de un sistema o proyecto específico se menciona su id 
-completo "((nombre del archivo).bonindea o (nombre del 
-proyecto), o ambos separados por "; ")..(id's de bloques 
-separados por comas y ordenados de menor a mayor)". 
-Ejemplo: ncinid..0.5.1,2.3,2.5,4,8 (para el proyecto 
+Para mencionar bloques (identificados por su id de bloque)
+de un sistema o proyecto específico se menciona su id
+completo "((ruta terminando en nombre de directorio + \)
+(nombre del archivo).bonindea o (nombre del proyecto), o
+ambos separados por "; ")..(id's de bloques separados por
+comas y ordenados de menor a mayor)". 
+Ejemplo: ncinid..0.5.1,2.3,2.5,4,8 (para el proyecto
 bonindea "ncinid").
 Dentro de una definición puede haber otro sistema bonindea.
 Se puede importar desde un bloque a otro bloque, sistema
@@ -69,16 +70,16 @@ completo si se está en un mismo sistema o proyecto.
 
 Copyright:
 
-El texto de "Sistema de ideas Bonindea" de El Investigador 
+El texto de "Sistema de ideas Bonindea" de El Investigador
 de las Ideas es una obra original del autor.
 
-Licencia de dicho texto: GPLv3 
+Licencia de dicho texto: GPLv3
 (https://www.gnu.org/licenses/gpl-3.0.en.html).
-© El Investigador de las Ideas 
+© El Investigador de las Ideas
 (https://investigadorid.wordpress.com/).
 Año 2020.
 
-    Linking this library statically or dynamically with 
+    Linking this library statically or dynamically with
 other modules is making a combined work based on this
 library. Thus, the terms and conditions of the GNU General
 Public License cover the whole combination.
